@@ -18,6 +18,7 @@ Shader "Hidden/Orthographic"
 
             Pass
             {
+                Name "OrhtographicProjection"
                 CGPROGRAM
                 #pragma vertex vert
                 #pragma fragment frag
