@@ -24,8 +24,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _PerspectiveMultiplier: 1
+    - _PerspectiveMultiplier: 0
     - _ZPos: 85.9
     m_Colors:
-    - _Pos: {r: 656.5, g: 60.2, b: 80.100006, a: 0}
+    - _Pos: {r: 750.7605, g: 60.2, b: 80.100006, a: 0}
   m_BuildTextureStacks: []
