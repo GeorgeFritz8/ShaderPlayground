@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water2
   m_Shader: {fileID: -6465566751694194690, guid: 4ce0450d886231b49a079263023bffaf, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords:
+  - BOOLEAN_8E2D40A6DA854282A752D4B3A6AE41D5_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -39,6 +41,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - BOOLEAN_8E2D40A6DA854282A752D4B3A6AE41D5: 1
     - Vector1_d369c7d64a70494eb402f4e909dfaffb: 0.9
@@ -50,6 +53,8 @@ Material:
     - _FoamSpeed: 0.1
     - _NormalScale: 23.2
     - _NormalStrenght: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Refraction: 0.0128
     - _RefractionScale: 1.45
     - _RefractionStrenght: 2.3
@@ -61,3 +66,16 @@ Material:
     - _DeepColor: {r: 0, g: 0.003921569, b: 0.09411765, a: 1}
     - _FoamColor: {r: 0.6773151, g: 0.6773151, b: 0.6773151, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &2519706706037964890
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

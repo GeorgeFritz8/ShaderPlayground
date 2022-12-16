@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GalaxyMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 7a8b19bbbaaae39458326c2f4aefd44c, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -39,10 +40,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_6f4be355ba404ddab8cfaaa90ce86e4f: 2
     - Vector1_94b851f48caf4741ae88f141f2e5491b: 20
     - Vector1_fd1cdc1ed8bb44f481e33a82f7adda27: 0.9
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_54d0ef41d5f54f629595536275b3c785: {r: 1.9845752, g: 3.036851, b: 8.42342, a: 1}
     - Color_70a9cd3861c740b7a8a40cf9c93ca5ac: {r: 0.010393287, g: 0, b: 0.6792453, a: 1}
@@ -50,3 +54,16 @@ Material:
     - Vector2_13d8e1a0240f46c598f462b98ddbe36c: {r: 0, g: 0.2, b: 0, a: 0}
     - Vector3_c41fa56d7dc84a3dbec2f0d09cbc952b: {r: 0.1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &5452062035543985210
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

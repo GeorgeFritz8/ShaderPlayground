@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CrystalMaterialGold
   m_Shader: {fileID: -6465566751694194690, guid: f8f30d548a369c64885b206618d39583, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,13 +32,32 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_4bc8dd1f9a06471b8b5e7fe50d3c6955: 0.609
     - Vector1_816e5b5081bd4e1fb502c8eb6e380ee4: 0.773
     - Vector1_b3802b6e570c4e8094ba1cb9c5663072: 1
     - Vector1_fc78df0629cc4738ac470d9a406d5fbc: 0
+    - _GlowFlash: 0
+    - _GlowFlashIntensity: 1
+    - _Per_Glow_Time: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_6b9e472c94004df2b1729c05e8649ab9: {r: 1, g: 0.14901961, b: 0, a: 1}
     - Color_cb318d4ff02544da8fac1f5807240020: {r: 5.992157, g: 2.164706, b: 0, a: 1}
     - Color_ec9027eba8d04ef7acd6b03f07641d29: {r: 5.992157, g: 1.6941177, b: 0, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &9658892700949582
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
