@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SwordEffect
-  m_Shader: {fileID: -6465566751694194690, guid: e2e32bff43e0dd14da1159a694ad2888, type: 3}
+  m_Name: PowerUpMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 68226c47662bbfd4eb5542b8141a31c5, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -20,18 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainText:
-        m_Texture: {fileID: 2800000, guid: ee2125694b0db2043b26a65dac23e45f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: 97fef622fc768b2429944a3a7ab2a5db, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicMap:
-        m_Texture: {fileID: 2800000, guid: e5afad012fdd8df47b41db075dd03686, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -46,24 +34,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionAmount: 0.2
-    - _FresnelPower: 1.5
-    - _GradientNoisePower: 5
-    - _GradientNoiseScale: 12
-    - _Metallic: 0.5
-    - _NoiseScale: 12
+    - _FlashSpeed: 3
+    - _MaximumFlash: 1
+    - _MinimumFlash: -1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.5
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 11.984314, g: 0, b: 0, a: 1}
-    - _GradientNoiseColor: {r: 15.999998, g: 1.0890051, b: 0, a: 0}
-    - _GradientNoiseSpeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _NoiseSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Color: {r: 0.0708556, g: 0, b: 0.2627451, a: 0}
+    - _FresnelColor: {r: 0, g: 0.03137255, b: 0.7490196, a: 0}
+    - _MaxFlash: {r: 1, g: 0, b: 0, a: 0}
+    - _MinFlash: {r: 0, g: 0, b: 0, a: 0}
+    - _MinMax: {r: 2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6336773519901830196
+--- !u!114 &4268230481181011347
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

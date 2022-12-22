@@ -1,5 +1,5 @@
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "f469db40c40e4ee5860dcc02a9ea8e40",
     "m_Properties": [
@@ -35,6 +35,12 @@
         }
     ],
     "m_Keywords": [],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "2c61ebc76861492b8aec208d702c4678"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "d379a0b11ad1474aa787edccae121e49"
@@ -599,10 +605,11 @@
         "serializedMesh": {
             "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
             "m_Guid": ""
-        }
+        },
+        "preventRotation": false
     },
     "m_Path": "Shader Graphs",
-    "m_ConcretePrecision": 0,
+    "m_GraphPrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": ""
@@ -847,9 +854,13 @@
         "m_GuidSerialized": "46d3b9e1-ac33-4cc0-88fd-23b02dfab7e7"
     },
     "m_Name": "FresnelSpeed",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_13d8e1a0240f46c598f462b98ddbe36c",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -1085,6 +1096,45 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "2c61ebc76861492b8aec208d702c4678",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "c09d395a88e547ae8c039218b4c7205d"
+        },
+        {
+            "m_Id": "54d0ef41d5f54f629595536275b3c785"
+        },
+        {
+            "m_Id": "70a9cd3861c740b7a8a40cf9c93ca5ac"
+        },
+        {
+            "m_Id": "f475f5f9f9174e0f9e1b4e6d8a21730f"
+        },
+        {
+            "m_Id": "c41fa56d7dc84a3dbec2f0d09cbc952b"
+        },
+        {
+            "m_Id": "fd1cdc1ed8bb44f481e33a82f7adda27"
+        },
+        {
+            "m_Id": "cef3bdbd4c1e4cc0bbdd83a9ffa83928"
+        },
+        {
+            "m_Id": "13d8e1a0240f46c598f462b98ddbe36c"
+        },
+        {
+            "m_Id": "6f4be355ba404ddab8cfaaa90ce86e4f"
+        },
+        {
+            "m_Id": "94b851f48caf4741ae88f141f2e5491b"
+        }
+    ]
 }
 
 {
@@ -1710,9 +1760,13 @@
         "m_GuidSerialized": "3ae77442-55e2-4e8f-a760-f51b7dd57520"
     },
     "m_Name": "GalaxyColor",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_54d0ef41d5f54f629595536275b3c785",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -1723,6 +1777,7 @@
         "b": 1.0,
         "a": 1.0
     },
+    "isMainColor": false,
     "m_ColorMode": 1
 }
 
@@ -2093,9 +2148,13 @@
         "m_GuidSerialized": "79cca02d-a2a8-42a8-8072-56b2def6d9ba"
     },
     "m_Name": "FresnelNoisePower",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_6f4be355ba404ddab8cfaaa90ce86e4f",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -2116,9 +2175,13 @@
         "m_GuidSerialized": "1adb555f-1be5-4775-814d-92465ca88bfc"
     },
     "m_Name": "StarColor",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_70a9cd3861c740b7a8a40cf9c93ca5ac",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -2129,6 +2192,7 @@
         "b": 1.0,
         "a": 1.0
     },
+    "isMainColor": false,
     "m_ColorMode": 1
 }
 
@@ -2513,17 +2577,23 @@
 }
 
 {
-    "m_SGVersion": 0,
+    "m_SGVersion": 1,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
     "m_ObjectId": "8c00afb4f35644cab487b131f3be20e4",
     "m_ActiveSubTarget": {
         "m_Id": "c30da09ac2e84442ac65f6d78b25c75f"
     },
+    "m_AllowMaterialOverride": false,
     "m_SurfaceType": 0,
+    "m_ZTestMode": 4,
+    "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_TwoSided": false,
+    "m_RenderFace": 2,
     "m_AlphaClip": false,
-    "m_CustomEditorGUI": ""
+    "m_CastShadows": true,
+    "m_ReceiveShadows": true,
+    "m_CustomEditorGUI": "",
+    "m_SupportVFX": false
 }
 
 {
@@ -2702,9 +2772,13 @@
         "m_GuidSerialized": "818cda3e-7b6c-44cc-a098-59c0a69fc12e"
     },
     "m_Name": "FresnelScale",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_94b851f48caf4741ae88f141f2e5491b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -3245,9 +3319,13 @@
         "m_GuidSerialized": "006db5f5-b601-4d03-8431-0cd8acf60fc4"
     },
     "m_Name": "Galaxy",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Cubemap_c09d395a88e547ae8c039218b4c7205d",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -3288,9 +3366,13 @@
         "m_GuidSerialized": "df81fe11-f62d-49f2-a255-d7e133490f7a"
     },
     "m_Name": "StarOffset",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector3_c41fa56d7dc84a3dbec2f0d09cbc952b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -3450,9 +3532,13 @@
         "m_GuidSerialized": "81080fa0-84a7-4d48-88af-5d33a2c74e36"
     },
     "m_Name": "FresnelColor",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_cef3bdbd4c1e4cc0bbdd83a9ffa83928",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -3463,6 +3549,7 @@
         "b": 1.0,
         "a": 1.0
     },
+    "isMainColor": false,
     "m_ColorMode": 1
 }
 
@@ -3771,9 +3858,13 @@
         "m_GuidSerialized": "efe4bb1c-4050-4316-959c-91fc03dfb327"
     },
     "m_Name": "Stars",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Cubemap_f475f5f9f9174e0f9e1b4e6d8a21730f",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -3921,9 +4012,13 @@
         "m_GuidSerialized": "c1cc1598-d190-418f-a0ba-2bf7519187b3"
     },
     "m_Name": "FresnelPower",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_fd1cdc1ed8bb44f481e33a82f7adda27",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
